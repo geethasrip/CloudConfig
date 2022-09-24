@@ -14,6 +14,9 @@ spring:
     ddl-auto: none
         datasource:
             driver-class-name: com.mysql.cj.jdbc.Driver
+            
+logging.level.org.springframework: INFO
+
 management:
   endpoint:
     metrics:
