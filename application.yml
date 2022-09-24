@@ -8,16 +8,7 @@ spring:
       allow-override: true
       # Override configuration with any local property source
       override-none: true 
-  jpa:
-     hibernate:
-       ddl-auto: update
-     database: mysql
-  datasource:
-     driver-class-name: com.mysql.cj.jdbc.Driver
-     url: jdbc:mysql://stockmarketdatabase.mysql.database.azure.com:3306/stockmarketdb?useSSL=true
-     username: stockmarketuser1
-     password: Test@1234 
-            
+              
 logging.level.org.springframework: INFO
 
 management:
